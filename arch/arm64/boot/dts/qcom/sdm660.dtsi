@@ -1638,7 +1638,6 @@
 		ranges;
 
 		glink_modem: modem {
-			status = "disabled";
 			qcom,remote-pid = <1>;
 			transport = "smem";
 			mboxes = <&apcs_glb 15>;
@@ -1873,7 +1872,6 @@
 	};
 
 	qcom,smp2p-modem {
-		status = "disabled";
 		compatible = "qcom,smp2p";
 		qcom,smem = <435>, <428>;
 		interrupts = <GIC_SPI 451 IRQ_TYPE_EDGE_RISING>;
@@ -2148,7 +2146,6 @@
 	};
 
 	pil_modem: qcom,mss@4080000 {
-		status = "disabled";
 		compatible = "qcom,pil-q6v55-mss";
 		reg = <0x4080000 0x100>,
 		      <0x1f63000 0x008>,
@@ -2211,6 +2208,7 @@
 		qcom,smem-states = <&modem_smp2p_out 0>;
 		qcom,smem-state-names = "qcom,force-stop";
 
+		status = "ok";
 		qcom,mba-mem@0 {
 			compatible = "qcom,pil-mba-mem";
 			memory-region = <&pil_mba_mem>;
