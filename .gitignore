@@ -43,6 +43,16 @@ Module.symvers
 modules.builtin
 
 #
+# LH Kernel files
+#
+Buildlog-CLANG.txt
+Buildlog-GCC.txt
+Zip-out/*.zip
+Zip-out/*.sha1
+Zip-out/Image.gz-dtb
+out/
+
+#
 # Top-level generic files
 #
 /tags

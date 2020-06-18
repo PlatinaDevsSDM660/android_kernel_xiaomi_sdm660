@@ -1,0 +1,33 @@
+Manifest-Version: 1.0
+Created-By: 1.0 (Android SignApk)
+
+Name: META-INF/com/google/android/updater-script
+SHA1-Digest: ZQie4rHBozuo1iAamIR0ggqDdmI=
+
+Name: Image.gz-dtb
+SHA1-Digest: yJuiLDzb1eQWBA1amPLF1xtCVJw=
+
+Name: anykernel.sh
+SHA1-Digest: IofWaDdM5JH24pruC08U9jdOraY=
+
+Name: tools/ak3-core.sh
+SHA1-Digest: AZe2Y+D/PgkW0ndRH0cgXNp2tP4=
+
+Name: META-INF/com/google/android/update-binary
+SHA1-Digest: N+FlcsWahXnFYm4FRJWctfIY7LQ=
+
+Name: tools/magiskboot
+SHA1-Digest: BmavKswKTRMn6pjDUJwElip7PWM=
+
+Name: tools/busybox
+SHA1-Digest: cmOKmjpYfdjzaus54MMPO9U6bxc=
+
+Name: LICENSE
+SHA1-Digest: bLJUIyJxYeq+v2SYZjPN04Prs4I=
+
+Name: tools/magiskpolicy
+SHA1-Digest: 7HV1TiYM0q5NwgNfA+57wGcU0CI=
+
+Name: README.md
+SHA1-Digest: mieFwLGy3D1oIe1hc3vRCgqt0Dw=
+
