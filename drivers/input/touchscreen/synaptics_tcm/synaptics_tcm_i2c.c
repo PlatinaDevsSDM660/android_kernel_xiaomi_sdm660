@@ -98,8 +98,8 @@ static int parse_dt(struct device *dev, struct syna_tcm_board_data *bdata)
 		retval = of_property_read_u32(np, "synaptics,power-on-state",
 				&value);
 		if (retval < 0) {
-			LOGE(dev, "Failed to read synaptics,power-on-state\n");
-			return retval;
+			LOGD(dev, "Failed to read synaptics,power-on-state\n");
+			bdata->power_on_state = 0;
 		}
 		bdata->power_on_state = value;
 	} else {
