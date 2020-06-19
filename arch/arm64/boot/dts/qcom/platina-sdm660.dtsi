@@ -314,6 +314,12 @@
 			qcom,pull = <5>;/* No pull */
 		};
 	/* disable pmic gpio_4 as adc for backlight therm */
+	gpio@c300 {
+		reg = <0xc300 0x100>;
+		qcom,pin-num = <4>;
+		status = "okay";
+		qcom,master-en = <0>;
+	};
 };
 
 &i2c_2 { /* smart PA device. */
